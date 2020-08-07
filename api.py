@@ -9,7 +9,7 @@ from functools import wraps
 application = app = Flask(__name__)
 
 app.config['SECRET_KEY']='secret'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///Users1.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 db = SQLAlchemy(app)
 
